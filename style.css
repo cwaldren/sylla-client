@@ -12,6 +12,11 @@
     font-size: 38pt;
 }
 
+.logo {
+    height: 100px;
+    width: auto;
+}
+
 .pdf {
 	max-width: 650px;
 	margin: 0 auto;
