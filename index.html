@@ -4,6 +4,12 @@
 	<meta charset="utf-8">
 	<title>HTML5 boilerplate – all you really need…</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="react/react.min.js"></script>
+	<script src="react/react-dom.min.js"></script>
+	<script src="pdf.js"></script>
+	<script src="pdf.worker.js"></script>
+	<script src="react/react-pdf.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -16,7 +22,7 @@
 		<div class="header">
 			<p>syllaBUS</p>
 		</div>
-
+		<div id="test"></div>
 		<div class="searchBar">
 			<p>&#x1F50D;</p>
 		</div>
@@ -26,6 +32,11 @@
 		</div>
 	
 	</div>
-
+	<script type="text/babel">
+		ReactDOM.render(
+			<h1>REACT!</h1>,
+			document.getElementById('test')
+		);
+	</script>
 </body>
 </html>
