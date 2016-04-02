@@ -2,41 +2,31 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>HTML5 boilerplate – all you really need…</title>
+	<title>SyllaBUS</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="skeleton.css">
 	<link rel="stylesheet" href="style.css">
-	<script src="react/react.min.js"></script>
+	<script src="zepto.min.js"></script>
+	<script src="react/react.js"></script>
 	<script src="react/react-dom.min.js"></script>
 	<script src="pdf.js"></script>
 	<script src="pdf.worker.js"></script>
 	<script src="react/react-pdf.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+	<script type="text/babel" src="index.js"></script>
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
 
-<body id="home">
-	
-	<div class="container">
-		
-		<div class="header">
-			<p>syllaBUS</p>
-		</div>
-		<div id="test"></div>
-		<div class="searchBar">
-			<p>&#x1F50D;</p>
-		</div>
-
-		<div class="resultsBin">
-
-		</div>
-	
+<body>
+	<div class="row header">
+		<div class="three columns"><h2>Syllabus</h2></div>
 	</div>
-	<script type="text/babel">
-		ReactDOM.render(
-			<h1>REACT!</h1>,
-			document.getElementById('test')
-		);
-	</script>
+	<div id="container">
+		<div>
+			
+		</div>
+	</div>
 </body>
 </html>
